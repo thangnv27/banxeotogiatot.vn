@@ -1,0 +1,665 @@
+/*================= Large Size ======================*/
+/*Setup all Notification boxes Large size*/
+.box_information,.box_success,.box_error,.box_warning,.box_tip,.box_secure,.box_message,.box_download,.box_purchase,.box_print, .box_edit, .box_undconst, .box_register, .box_wait
+{
+    margin: 10px 10px;
+    padding: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -moz-box-shadow: 4px 3px 5px rgba(000,000,000,0.5),
+        inset 0px 0px 10px rgba(46,46,46,0.4);
+    -webkit-box-shadow: 4px 3px 5px rgba(000,000,000,0.5),
+        inset 0px 0px 10px rgba(46,46,46,0.4);
+    box-shadow: 4px 3px 5px rgba(000,000,000,0.5),
+        inset 0px 0px 10px rgba(46,46,46,0.4);
+    /* Un comment any BORDER CSS line to use the style; */
+    border: 3px dashed;
+    /*border: 3px solid ;*/
+    /*border: 3px dotted ; */
+}
+/*Notification Boxes Properties*/
+.box_information
+{
+    border-color:#0e7fad;
+    color: #0e7fad;
+    background: #c0e9fa url(../data/icons/info.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_information h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_information p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Success Notification Box */
+.box_success
+{
+    border-color: #4f8746;
+    color: #4f8746;
+    background: #d4ffcd url(../data/icons/success.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_success h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_success p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Error Notification Box */
+.box_error
+{
+    border-color: #641f1a;
+    color: #641f1a;
+    background: #ffd2d4 url(../data/icons/error.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_error h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_error p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Warning Notification Box */
+.box_warning
+{
+    border-color: #9d9c49;
+    color: #9d9c49;
+    background: #fdfdcb url(../data/icons/warning.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_warning h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_warning p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Tips Notification Box */
+.box_tip
+{
+    border-color: #c77d10;
+    color: #c77d10;
+    background: #f9d69e url(../data/icons/tip.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_tip h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_tip p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Secure Notification Box */
+.box_secure
+{
+    border-color: #9638f1;
+    color: #9638f1;
+    background: #e5cefc url(../data/icons/secure.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_secure h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_secure p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Message Notification Box */
+.box_message
+{
+    border-color: #000;
+    color: #000;
+    background: #efefef url(../data/icons/message.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_message h4
+{
+    margin: 5px 5px 5px 50px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_message p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 30px;
+}
+/* Download Notification Box */
+.box_download
+{
+    border-color: #04b5eb;
+    color: #04b5eb;
+    background: #f7f7f7 url(../data/icons/download.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_download h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_download p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Purchase Notification Box */
+.box_purchase
+{
+    border-color: #426164;
+    color: #426164;
+    background: #c2e1e3 url(../data/icons/purchase.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_purchase h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_purchase p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Print Notification Box */
+.box_print
+{
+    border-color: #3c4b5e;
+    color: #3c4b5e;
+    background: #c8d9e3 url(../data/icons/print.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_print h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_print p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Edit Notification Box */
+.box_edit
+{
+    border-color: #3333FF;
+    color: #3300FF;
+    background: #3399FF url(../data/icons/edit.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_edit h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_edit p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Under Construction Notification Box */
+.box_undconst
+{
+    border-color: #000;
+    color: #000;
+    background: #FC1 url(../data/icons/underconstruction.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_undconst h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_undconst p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Register Notification Box */
+.box_register
+{
+    border-color: #3366FF;
+    color: #3366FF;
+    background: #66ccFF url(../data/icons/register.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_register h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_register p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+/* Wait Notification Box */
+.box_wait
+{
+    border-color: #FF9900;
+    color: #FF9900;
+    background: #FFFF99 url(../data/icons/hourglass.png) no-repeat;
+    background-position: 30px 20px;
+}
+.box_wait h4
+{
+    margin: 5px 5px 5px 80px;
+    padding: 0;
+    font-size: 18px;
+}
+.box_wait p
+{
+    font-size: 14px;
+    color: #434E54;
+    margin: 5px 5px 5px 80px;
+}
+#Tick_red {
+    margin:0 0 10px;
+    padding:0;
+}
+#Tick_red li{
+    background:transparent url(../data/check/redcheck.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:15px;
+    margin:0;
+    list-style: none;
+}
+#Tick_green {
+    margin:0 0 10px;
+    padding:0;
+}
+#Tick_green li{
+    background:transparent url(../data/check/greencheck.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:15px;
+    margin:0;
+    list-style: none;
+}
+#Tick_blue {
+    margin:0 0 10px;
+    padding:0;
+}
+#Tick_blue li{
+    background:transparent url(../data/check/bluecheck.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:15px;
+    margin:0;
+    list-style: none;
+}
+#Mui-ten_red {
+    margin:0 0 10px;
+    padding:0;
+}
+#Mui-ten_red li{
+    background:transparent url(../data/check/redarrow.png) no-repeat left 2px;
+    padding-left:25px;
+    padding-top:1px;
+    padding-bottom:10px;
+    margin:0;
+    list-style: none;
+}
+#Mui-ten_blue {
+    margin:0 0 10px;
+    padding:0;
+}
+#Mui-ten_blue li{
+    background:transparent url(../data/check/bluearrow.png) no-repeat left 2px;
+    padding-left:25px;
+    padding-top:1px;
+    padding-bottom:10px;
+    margin:0;
+    list-style: none;
+}
+#Mui-ten_green {
+    margin:0 0 10px;
+    padding:0;
+}
+#Mui-ten_green li{
+    background:transparent url(../data/check/greenarrow.png) no-repeat left 2px;
+    padding-left:25px;
+    padding-top:1px;
+    padding-bottom:10px;
+    margin:0;
+    list-style: none;
+}
+#tick-circle-green {
+    margin:0 0 10px;
+    padding:0;
+}
+#tick-circle-green li{
+    background:transparent url(../data/check/tick-green-circle.png) no-repeat left 2px;
+    padding-left:55px;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:0;
+    list-style: none;
+}
+#Tick_blue2 {
+    margin:0 0 10px;
+    padding:0;
+}
+#Tick_blue2 li{
+    background:transparent url(../data/check/Tick_blue.gif) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:5px;
+    margin:0;
+    list-style: none;
+}
+#Tick-green-vuong-day {
+    margin:0 0 10px;
+    padding:0;
+}
+#Tick-green-vuong-day li{
+    background:transparent url(../data/check/Tick-green.jpg) no-repeat left 2px;
+    padding-left:50px;
+    padding-top:20px;
+    padding-bottom:15px;
+    margin:0;
+    list-style: none;
+}
+#Tick-green-vuong {
+    margin:0 0 10px;
+    padding:0;
+}
+#Tick-green-vuong li{
+    background:transparent url(../data/check/tick-green-vuong.png) no-repeat left 2px;
+    padding-left:50px;
+    padding-top:5px;
+    padding-bottom:15px;
+    margin:0;
+    list-style: none;
+}
+#X_smal-red {
+    margin:0 0 10px;
+    padding:0;
+}
+#X_smal-red li{
+    background: url(../data/check/redbull.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:8px;
+    padding-bottom:10px;
+    margin:0;
+    list-style: none;
+}
+#arrow-list-item {
+    margin:0 0 10px;
+    padding:0;
+}
+#arrow-list-item li{
+    background:transparent url(../data/check/arrow-list-item.png) no-repeat left 2px;
+    padding-left:20px;
+    padding-top:2px;
+    padding-bottom:15px;
+    margin:0;
+    list-style: none;
+}
+#tick-circle-blue-smal {
+    margin:0 0 10px;
+    padding:0;
+}
+#tick-circle-blue-smal li{
+    background:transparent url(../data/check/tick-blue-circle-smal.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:8px;
+    padding-bottom:8px;
+    margin:0;
+    list-style: none;
+}
+#tick-circle-blue {
+    margin:0 0 10px;
+    padding:0;
+}
+#tick-circle-blue li{
+    background:transparent url(../data/check/tick-blue-circle.png) no-repeat left 2px;
+    padding-left:50px;
+    padding-top:18px;
+    padding-bottom:15px;
+    margin:5px;
+    list-style: none;
+}
+#X_big-red {
+    margin:0 0 10px;
+    padding:0;
+}
+#X_big-red li{
+    background:transparent url(../data/check/fail_icon.png) no-repeat left 2px;
+    padding-left:70px;
+    padding-top:30px;
+    padding-bottom:23px;
+    margin:5px;
+    list-style: none;
+}
+#so-1-green {
+    margin:0 0 10px;
+    padding:0;
+}
+#so-1-green li{
+    background:transparent url(../data/check/01-green.png) no-repeat left 2px;
+    padding-left:100px;
+    padding-top:5px;
+    padding-bottom:30px;
+    margin:5px;
+    list-style: none;
+}
+#so-2-green {
+    margin:0 0 10px;
+    padding:0;
+}
+#so-2-green li{
+    background:transparent url(../data/check/02-green.png) no-repeat left 2px;
+    padding-left:100px;
+    padding-top:5px;
+    padding-bottom:30px;
+    margin:5px;
+    list-style: none;
+}
+#so-3-green {
+    margin:0 0 10px;
+    padding:0;
+}
+#so-3-green li{
+    background:transparent url(../data/check/03-green.png) no-repeat left 2px;
+    padding-left:100px;
+    padding-top:5px;
+    padding-bottom:30px;
+    margin:5px;
+    list-style: none;
+}
+.widget_search {
+    padding:30px 0 0 0;
+    float:right;
+}
+.tick_small_red_mark {
+    margin:0 0 10px;
+    padding:0;
+}
+.tick_small_red_mark li{
+    background: url(../data/check/red-mark.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin:0;
+    list-style: none;
+}
+.tick_small_green_mark {
+    margin:0 0 10px;
+    padding:0;
+}
+.tick_small_green_mark li{
+    background: url(../data/check/green-mark.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin:0;
+    list-style: none;
+}
+.orange-check-mark{
+    margin:0 0 10px;
+    padding:0;
+}
+.orange-check-mark li{
+    background: url(../data/check/orange-check-mark.png) no-repeat left top;
+    padding-left:38px;
+    padding-top:12px;
+    padding-bottom:12px;
+    margin:0;
+    list-style: none;
+}
+.orangered-check-mark{
+    margin:0 0 10px;
+    padding:0;
+}
+.orangered-check-mark li{
+    background: url(../data/check/orangered-check-mark.png) no-repeat left top;
+    padding-left:38px;
+    padding-top:12px;
+    padding-bottom:12px;
+    margin:0;
+    list-style: none;
+}
+.orange_x, .checkbox {
+    margin:0 0 10px;
+    padding:0;
+}
+.orange_x li{
+    background: url(../data/check/orange_x.png) no-repeat left 2px;
+    padding-left:30px;
+    padding-top:6px;
+    padding-bottom:6px;
+    margin:0;
+    list-style: none;
+}
+.checkbox li{
+    background: url(../data/check/checkbox.png) no-repeat left 6px;
+    padding-left:30px;
+    padding-top:6px;
+    padding-bottom:10px;
+    margin:0;
+    list-style: none;
+}
+
+@media (max-width: 480px){
+    .box_information
+    {
+        background: #c0e9fa;
+    }
+    .box_success
+    {
+        background: #d4ffcd;
+    }
+    .box_error
+    {
+        background: #ffd2d4;
+    }
+    .box_warning
+    {
+        background: #fdfdcb;
+    }
+    .box_tip
+    {
+        background: #f9d69e
+    }
+    .box_secure
+    {
+        background: #e5cefc;
+    }
+    .box_message
+    {
+        background: #efefef;
+    }
+    .box_download
+    {
+        background: #f7f7f7;
+    }
+    .box_purchase
+    {
+        background: #c2e1e3;
+    }
+    .box_print
+    {
+        background: #c8d9e3;
+    }
+    .box_edit
+    {
+        background: #3399FF;
+    }
+    .box_undconst
+    {
+        background: #FC1;
+    }
+    .box_register
+    {
+        background: #66ccFF;
+    }
+    .box_wait
+    {
+        background: #FFFF99;
+    }
+    
+    .box_information h4, .box_information p,
+    .box_success h4, .box_success p,
+    .box_error h4, .box_error p,
+    .box_warning h4, .box_warning p,
+    .box_tip h4, .box_tip p,
+    .box_secure h4, .box_secure p,
+    .box_message h4, .box_message p,
+    .box_download h4, .box_download p,
+    .box_purchase h4, .box_purchase p,
+    .box_print h4, .box_print p,
+    .box_edit h4, .box_edit p,
+    .box_undconst h4, .box_undconst p,
+    .box_register h4, .box_register p,
+    .box_wait h4, .box_wait p
+    {
+        margin: 0 0 10px;
+    }
+}
